@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(141, 136, 136)
+}
+
+.playercard{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+.input {
+  display: flex;
+  flex-direction: row;
+  gap:20px
+}
+
+.todos{
+  display: flex;
+  gap:5px
+}
+
+.element {
+  display: flex;
+  flex-direction: row;
+  gap:20px
+}
