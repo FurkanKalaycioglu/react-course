@@ -9,6 +9,7 @@
 }
 
 .button{
+  border-radius: 11px;
   width: 200px;
   height: 200px;
   background-color: rgb(141, 136, 136)
@@ -37,3 +38,20 @@
   flex-direction: row;
   gap:20px
 }
+
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+
